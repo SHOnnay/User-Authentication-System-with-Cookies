@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Forget Password</title>
+    <style>
+        
+    </style>
+</head>
+<body>
+
+<form action="resetpasswordprocess.php" method="post">
+    <h1>Reset Password</h1>
+    <label for="email">Enter Your Email:</label>
+    <input type="email" name="email" required>
+    <br><br>
+    <label for="security_question">Security Question: What is your school name?</label>
+    <input type="text" name="security_question" required>
+    <br><br>
+    <label for="newpass">Enter New Password:</label>
+    <input type="password" name="newpass" required>
+    <br><br>
+    <label for="confirmpass">Confirm Password:</label>
+    <input type="password" name="confirmpass" required>
+    <br><br>
+    <input type="submit" value="Reset Password" name="reset">
+    <input type="button" value="BACK" onclick="window.location.href='index.html'">
+</form>
+
+</body>
+</html>

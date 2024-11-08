@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book Borrowing System</title>
+    <style>
+        h1{
+            text-align: center;
+            color: #354d54;
+        }
+       form {
+            background-color: #90cbca;
+            color: #fdfefe; 
+            font-family: "Sofia";
+            padding: 10px;
+            max-width: 350px;
+            margin: 0 auto;
+            border-radius: 10px;
+        }
+
+        label {
+            width: 150px;
+            display: inline-block;
+        }
+        .button {
+            background-color: #4ab9d8;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 2px 2px;
+            cursor: pointer;
+        }
+        input[type="submit"] {
+            width: auto;
+            padding: 10px 20px;
+            background-color: #170072;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button {
+           display: inline-block;
+        }
+        .form-row {
+            display: flex;
+            align-items: center;
+        }
+        h1{
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+
+<form action="loginprocess.php" method="post">
+    
+        <h1>LOGIN</h1>
+
+        <div class="form-row">
+            <label for="uname">Enter Your Email:</label>
+            <input type="text" name="uname" required>
+        </div>
+        <br>
+
+        <div class="form-row">
+            <label for="pass">Enter Your Password:</label>
+            <input type="password" name="pass" required>
+        </div>
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="submit" value="Login" name="submit"><br><br>
+        
+        <a href="signup.html">Sign Up</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="Forget.html">Forget Password?</a>
+    </div>       
+</form>
+
+</body>
+</html>
